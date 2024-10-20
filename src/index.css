@@ -4,10 +4,65 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;     
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  display: flex;
+  justify-content: center;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn{
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: rgb(58, 58, 240);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: none;
+}
+.btn:hover{
+  cursor: pointer;
+}
+/* .container1{
+  height: 50px;
+} */
+ .list{
+  margin-top: 20px;
+ }
+ li:hover{
+  cursor: pointer;
+  background-color:grey;
+  color: white;
+  border-radius: 5px;
+  width:fit-content;
+  text-align: center;
+ }
+ .selected {
+  background-color: grey;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 3px;
+  
+ }
+ .list_display_container{
+  display: flex;
+  flex-direction:row;
+ }
+
+ #EditIcon:hover {
+  cursor: pointer;
+  border-radius: 5px;
+ }
+
